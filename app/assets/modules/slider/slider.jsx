@@ -110,7 +110,7 @@ class Slider {
         // Reset pressed keys to re-focus
         that.el.addEventListener('click', () => {
             that.keysDown = [];
-        })
+        });
     }
     slide(direction) {
         let that = this;
