@@ -1,0 +1,9 @@
+# IDE
+*.iml
+*.idea
+
+# Dependency directory
+node_modules
+
+# Build dir
+app/build

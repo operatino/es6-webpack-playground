@@ -1,0 +1,32 @@
+.card {
+    position: relative;
+    }
+
+.card_image {
+
+    }
+
+.card_image-content {
+    width: 100%;
+    display: block;
+    }
+
+.card_info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+    line-height: 1.5;
+    }
+
+@media all and (min-width: 700px) {
+
+
+    .card_info {
+        font-size: 24px;
+        }
+    }
