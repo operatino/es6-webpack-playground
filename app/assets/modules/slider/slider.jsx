@@ -1,7 +1,7 @@
 'use strict';
 
 require('./slider.css');
-var card = new (require('../card/card.jsx'))();
+let card = new (require('../card/card.jsx'))();
 
 class Slider {
     constructor() {
