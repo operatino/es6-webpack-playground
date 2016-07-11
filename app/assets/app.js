@@ -1,9 +1,9 @@
 'use strict';
 
-let getMovies = new (require('./modules/getMovies/getMovies.jsx'))({
+let getMovies = new (require('./modules/getMovies/getMovies.js'))({
     url: 'http://lg-devtest.herokuapp.com/data.json'
 });
-let slider = new (require('./modules/slider/slider.jsx'))();
+let slider = new (require('./modules/slider/slider.js'))();
 
 getMovies.getData({
     filter: 'Action'

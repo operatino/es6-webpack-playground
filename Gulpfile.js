@@ -4,7 +4,6 @@ var jshint = require('gulp-jshint');
 
 gulp.task('test', function () {
     return gulp.src([
-            'app/assets/**/*.jsx',
             'app/assets/**/*.js'
         ])
         .pipe(jshint())
